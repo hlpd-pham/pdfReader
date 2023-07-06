@@ -11,7 +11,7 @@ import SwiftUI
 struct pdfReaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LibraryView(link: "https://dagrs.berkeley.edu/sites/default/files/2020-01/sample.pdf")
         }
     }
 }
